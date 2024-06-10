@@ -1,0 +1,90 @@
+.university-btn{
+    background-color: white;
+    color: #2e09b5;
+    
+    border-color: white;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 20px;
+}
+.university-btn:hover{
+    border-color:#19026d ;
+}
+.university-head{
+    text-align: center;
+    color: #2f109c;
+    font-size: 25px;
+}
+.university{
+    background-color: #e0daf5;
+    padding: 10px;
+}
+.university-mini-cont{
+    background-image: linear-gradient(to right,#faf2e1,#b1abf5);
+    margin: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-items{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 26px;
+}
+.universities-second-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.university-para{
+    font-size: 22px;
+}
+.university-names-cont{
+    background-image: linear-gradient(to right,#e8daae,#c0c6d1,#a3b2d1);
+    width: 50vw;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4%;
+    color: #2f109c;
+}
+.university-title{
+    font-family: Bree-Serif;
+    font-size: 45px;
+
+}
+.us{
+    background-color:#2f109c ;
+    color: white;
+    border-color: #2f109c;
+}
+@media screen and (max-width: 900px){
+    .university-mini-cont{
+        display: flex;
+    
+        flex-wrap: wrap;
+        
+    }
+    .university-names-cont{
+        width: 90vw;
+    }
+    .university-btn{
+        margin: 2%;
+        font-size: 17px;
+    }
+    .university-title{
+        font-size: 35px;
+    }
+    .list-items{
+        font-size: 22px;
+    }
+
+}
